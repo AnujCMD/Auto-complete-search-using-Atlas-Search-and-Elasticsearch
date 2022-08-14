@@ -1,0 +1,10 @@
+io\autocomplete\configuration\ElasticsearchConfiguration.class
+io\autocomplete\constants\AppConstants.class
+io\autocomplete\service\MongoService.class
+io\autocomplete\model\Keyword.class
+io\autocomplete\controller\AutocompleteController.class
+io\autocomplete\service\impl\ElasticSearchImpl.class
+io\autocomplete\AutocompleteApplication.class
+io\autocomplete\model\AutoCompleteResponse.class
+io\autocomplete\model\SearchDB.class
+io\autocomplete\service\impl\MongoServiceImpl.class
