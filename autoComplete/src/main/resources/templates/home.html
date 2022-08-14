@@ -55,11 +55,11 @@
     $(function() {
         $("#autocomplete").autocomplete({
             delay: 300,
-            lookup:"http://autocompletemongo-env.eba-2pfmrxsi.ap-south-1.elasticbeanstalk.com",
+            lookup:"http://autocompleteelasticreactive-env.eba-rkpyecqh.ap-south-1.elasticbeanstalk.com",
             source: function(request, response) {
                 let searchTerm = request.term;
                 var suggestionsList = [];
-                let final_url = "http://autocompletemongo-env.eba-2pfmrxsi.ap-south-1.elasticbeanstalk.com/autocomplete?query="+searchTerm;
+                let final_url = "http://autocompleteelasticreactive-env.eba-rkpyecqh.ap-south-1.elasticbeanstalk.com/ui?query="+searchTerm;
                 console.log(final_url)
                 console.log(searchTerm)
                 $.ajax({
@@ -83,4 +83,3 @@
         });
     });
 </script>
-
